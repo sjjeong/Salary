@@ -1,0 +1,5 @@
+rootProject.name = "Salary"
+include ':app'
+include ':common:util'
+include ':common:ui'
+include ':feature:splash'

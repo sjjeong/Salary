@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+apply from: "../android.gradle"
+
+android {
+    defaultConfig {
+        applicationId "com.dino.salary"
+    }
+}
+
+dependencies {
+    implementation project(":feature:splash")
+}
